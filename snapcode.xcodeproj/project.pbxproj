@@ -10,7 +10,26 @@
 		D27104F01D8C671700E50420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27104EF1D8C671700E50420 /* AppDelegate.swift */; };
 		D27104F21D8C671700E50420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27104F11D8C671700E50420 /* Assets.xcassets */; };
 		D27104F51D8C671700E50420 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D27104F31D8C671700E50420 /* MainMenu.xib */; };
+		D27104FD1D8C679800E50420 /* SnapCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27104FC1D8C679800E50420 /* SnapCodeView.swift */; };
+		D27105001D8D6F4600E50420 /* snapcode.svg in Resources */ = {isa = PBXBuildFile; fileRef = D27104FF1D8D6F4600E50420 /* snapcode.svg */; };
+		D27105081D8D6F5300E50420 /* snapcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27105071D8D6F5300E50420 /* snapcodeTests.swift */; };
+		D27105101D8D734A00E50420 /* SVGParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271050F1D8D734A00E50420 /* SVGParser.swift */; };
+		D2AF7A1D1D8E7AF700AC4C90 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = D2AF7A1C1D8E7AF700AC4C90 /* chat.png */; };
+		D2AF7A1F1D8ED3D500AC4C90 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF7A1E1D8ED3D500AC4C90 /* NSImage.swift */; };
+		D2AF7A211D8ED4C700AC4C90 /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF7A201D8ED4C700AC4C90 /* NSView.swift */; };
+		D2AF7A231D8ED4DA00AC4C90 /* NSSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF7A221D8ED4DA00AC4C90 /* NSSize.swift */; };
+		D2AF7A251D8ED4EE00AC4C90 /* NSPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF7A241D8ED4EE00AC4C90 /* NSPoint.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D271050A1D8D6F5300E50420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D27104E41D8C671700E50420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27104EB1D8C671700E50420;
+			remoteInfo = snapcode;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D27104EC1D8C671700E50420 /* snapcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -18,10 +37,28 @@
 		D27104F11D8C671700E50420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D27104F41D8C671700E50420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D27104F61D8C671700E50420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27104FC1D8C679800E50420 /* SnapCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapCodeView.swift; sourceTree = "<group>"; };
+		D27104FF1D8D6F4600E50420 /* snapcode.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = snapcode.svg; sourceTree = "<group>"; };
+		D27105051D8D6F5300E50420 /* snapcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27105071D8D6F5300E50420 /* snapcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapcodeTests.swift; sourceTree = "<group>"; };
+		D27105091D8D6F5300E50420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D271050F1D8D734A00E50420 /* SVGParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGParser.swift; sourceTree = "<group>"; };
+		D2AF7A1C1D8E7AF700AC4C90 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		D2AF7A1E1D8ED3D500AC4C90 /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		D2AF7A201D8ED4C700AC4C90 /* NSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
+		D2AF7A221D8ED4DA00AC4C90 /* NSSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSSize.swift; sourceTree = "<group>"; };
+		D2AF7A241D8ED4EE00AC4C90 /* NSPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D27104E91D8C671700E50420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27105021D8D6F5300E50420 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				D27104EE1D8C671700E50420 /* snapcode */,
+				D27105061D8D6F5300E50420 /* snapcodeTests */,
 				D27104ED1D8C671700E50420 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				D27104EC1D8C671700E50420 /* snapcode.app */,
+				D27105051D8D6F5300E50420 /* snapcodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,11 +90,28 @@
 			isa = PBXGroup;
 			children = (
 				D27104EF1D8C671700E50420 /* AppDelegate.swift */,
+				D27104FC1D8C679800E50420 /* SnapCodeView.swift */,
+				D271050F1D8D734A00E50420 /* SVGParser.swift */,
 				D27104F11D8C671700E50420 /* Assets.xcassets */,
 				D27104F31D8C671700E50420 /* MainMenu.xib */,
+				D27104FF1D8D6F4600E50420 /* snapcode.svg */,
+				D2AF7A1C1D8E7AF700AC4C90 /* chat.png */,
+				D2AF7A1E1D8ED3D500AC4C90 /* NSImage.swift */,
+				D2AF7A201D8ED4C700AC4C90 /* NSView.swift */,
+				D2AF7A221D8ED4DA00AC4C90 /* NSSize.swift */,
+				D2AF7A241D8ED4EE00AC4C90 /* NSPoint.swift */,
 				D27104F61D8C671700E50420 /* Info.plist */,
 			);
 			path = snapcode;
+			sourceTree = "<group>";
+		};
+		D27105061D8D6F5300E50420 /* snapcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D27105071D8D6F5300E50420 /* snapcodeTests.swift */,
+				D27105091D8D6F5300E50420 /* Info.plist */,
+			);
+			path = snapcodeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +134,24 @@
 			productReference = D27104EC1D8C671700E50420 /* snapcode.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D27105041D8D6F5300E50420 /* snapcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D271050C1D8D6F5300E50420 /* Build configuration list for PBXNativeTarget "snapcodeTests" */;
+			buildPhases = (
+				D27105011D8D6F5300E50420 /* Sources */,
+				D27105021D8D6F5300E50420 /* Frameworks */,
+				D27105031D8D6F5300E50420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D271050B1D8D6F5300E50420 /* PBXTargetDependency */,
+			);
+			name = snapcodeTests;
+			productName = snapcodeTests;
+			productReference = D27105051D8D6F5300E50420 /* snapcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -91,6 +165,11 @@
 					D27104EB1D8C671700E50420 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
+					};
+					D27105041D8D6F5300E50420 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D27104EB1D8C671700E50420;
 					};
 				};
 			};
@@ -108,6 +187,7 @@
 			projectRoot = "";
 			targets = (
 				D27104EB1D8C671700E50420 /* snapcode */,
+				D27105041D8D6F5300E50420 /* snapcodeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -117,8 +197,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27105001D8D6F4600E50420 /* snapcode.svg in Resources */,
 				D27104F21D8C671700E50420 /* Assets.xcassets in Resources */,
 				D27104F51D8C671700E50420 /* MainMenu.xib in Resources */,
+				D2AF7A1D1D8E7AF700AC4C90 /* chat.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27105031D8D6F5300E50420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,11 +218,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2AF7A1F1D8ED3D500AC4C90 /* NSImage.swift in Sources */,
 				D27104F01D8C671700E50420 /* AppDelegate.swift in Sources */,
+				D27105101D8D734A00E50420 /* SVGParser.swift in Sources */,
+				D2AF7A251D8ED4EE00AC4C90 /* NSPoint.swift in Sources */,
+				D2AF7A211D8ED4C700AC4C90 /* NSView.swift in Sources */,
+				D27104FD1D8C679800E50420 /* SnapCodeView.swift in Sources */,
+				D2AF7A231D8ED4DA00AC4C90 /* NSSize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27105011D8D6F5300E50420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27105081D8D6F5300E50420 /* snapcodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D271050B1D8D6F5300E50420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27104EB1D8C671700E50420 /* snapcode */;
+			targetProxy = D271050A1D8D6F5300E50420 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D27104F31D8C671700E50420 /* MainMenu.xib */ = {
@@ -193,6 +304,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -234,6 +346,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -241,12 +354,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = snapcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hrubasko.snapcode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -254,12 +368,43 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = snapcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hrubasko.snapcode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		D271050D1D8D6F5300E50420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = snapcodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrubasko.snapcodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snapcode.app/Contents/MacOS/snapcode";
+			};
+			name = Debug;
+		};
+		D271050E1D8D6F5300E50420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = snapcodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrubasko.snapcodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snapcode.app/Contents/MacOS/snapcode";
 			};
 			name = Release;
 		};
@@ -282,6 +427,16 @@
 				D27104FB1D8C671700E50420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D271050C1D8D6F5300E50420 /* Build configuration list for PBXNativeTarget "snapcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D271050D1D8D6F5300E50420 /* Debug */,
+				D271050E1D8D6F5300E50420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
