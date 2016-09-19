@@ -1,2 +1,5 @@
 # snapcode
 Simple snapcode view + the simplest svg parser
+
+![](https://raw.githubusercontent.com/xhruso00/snapcode/master/preview1.png)
+![](https://raw.githubusercontent.com/xhruso00/snapcode/master/preview2.png)
